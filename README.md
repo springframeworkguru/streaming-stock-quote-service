@@ -6,7 +6,8 @@ The project was inspired by Brian Clozel's [Webflux Workshop](https://github.com
 
 ## Useful Commands
 ```curl http://localhost:8080/quotes -i -H "Accept: application/json"```
-```curl http://localhost:8080/quotes -i -H "Accept: application/stream+json"```
+
+```curl http://localhost:8080/quotes -i -H "Accept: application/x-ndjson"```
 
 ## All Spring Framework Guru Courses
 ### Spring Framework 5
